@@ -17,7 +17,7 @@ function calc() {
    
     if (cpm > 10.00) {
         document.getElementById("div1").style.background = "red";
-        document.getElementById("results").style.display = "block";
+        document.getElementById("warning").style.display = "block";
     }
     else if (cpm < 10.00) {
         document.getElementById("div1").style.background = "#19B335";
